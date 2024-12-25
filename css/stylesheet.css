@@ -59,15 +59,41 @@ img{
 }
 .w-50{
     width: 50%;
+    padding: 10px;
 }
 .w-30{
     width: 30%;
+    padding: 10px;
 }
 .w-40{
     width: 40%;
+    padding: 10px;
 }
-/* header-sec */
+.w-60{
+    width: 60%;
+}
+.w-25{
+    width: 25%;
+    padding: 10px;
+}
+.padding-zero{
+    padding-bottom: 0%;
+}
+.margin-b-60{
+    margin-bottom: 60px;
+}
+.w-100{
+    width: 100%;
+}
 
+/* header-sec */
+header{
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    z-index: 5;
+    width: 100%;
+}
 nav ul li a{
     position: relative;
     padding-left:20px ;
@@ -100,7 +126,7 @@ nav ul li a:hover .fa-angle-down{
     background-color: var(--secondary);
 }
 .fa-plus{
-    margin-left: 2px;
+    margin-left: 5px;
     transition: 0.5s all;
 }
 .btn:hover .fa-plus{
@@ -108,7 +134,7 @@ nav ul li a:hover .fa-angle-down{
 }
 
 .dropdown{
-    top: 15%;
+    top: 50%;
     width: 200px;
     padding: 20px;
     position: absolute;
@@ -124,7 +150,7 @@ nav ul li a:hover .fa-angle-down{
     margin-bottom: 10px;
 }
 nav ul li:hover .dropdown{
-    top: 10%;
+    top: 100%;
     opacity: 1;
     visibility: visible;
     transform:scale(1);
@@ -142,18 +168,21 @@ nav ul li:hover .dropdown{
 .banner-bg{
     background-color: #f7f7f7;
     padding-bottom: 0;
+    margin-top: 100px;
 }
 .banner-content{
     width: 80%;
     position: relative;
 }
 .banner-bg h1{
+
     font-size:60px;
     font-weight:lighter;
     font-family: var(--zcool);
-    line-height: 80px;
+    line-height: 60px;
     color: #00061D;
     margin-bottom:20px;
+    width: 540px;
 }
 .banner-p1{
     font-family: var(--zcool);
@@ -214,20 +243,84 @@ nav ul li:hover .dropdown{
     left: 0%;
     border: 1px solid var(--primary);
     border-right: none;
+    z-index: -1;
 
 }
 
 /* our hotel */
 
 .border{
-    border-bottom: 1px solid var(--secondary);
+    border-bottom: 1px solid #E7E7EB;
+    padding-bottom: 30px;
 }
 .ourhotel .w-30 h1{
     font-size: 48px;
     font-weight: 200;
     color: #212121;
 }
+
 .w-40 ul li{
     color: var(--secondary);
     font-size: 20px;
 }
+.gallery{
+    overflow: hidden;
+
+}
+.w-25 img{
+    gap: 10px;
+    transition: 0.5s all;
+   
+}
+.gallery:hover img{
+    transform: scale(1.2);
+}
+
+/* about us  */
+
+
+.aboutus h1{
+    font-size: 48px;
+    font-weight: 200;
+    color: #212121;
+    border-bottom: 1px solid #E7E7EB;
+    padding-bottom: 30px;
+}
+ .aboutimg{
+    padding: 0 10px;
+ }
+ .comfort{
+    width: 630px;
+
+ }
+ .comfort h1{
+    font-size: 48px;
+    margin-bottom: 25px;
+    font-weight: 200;
+    color: #212121;
+ }
+ .comfort .p1{
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color:#595959;
+ }
+ .comfort p {
+    color: var(--secondary);
+    margin-left: 10px;
+   margin-bottom: 20px;
+ }
+ .comfort .fa-arrow-right-long{
+    color: var(--primary);
+    margin-right: 10px;
+ }
+ .comfort .readmore{
+    margin-top: 40px;
+ }
+   
+ /* counter */
+
+ .counter {
+    background-image: url(/img/counter-img.png);
+ }
+
