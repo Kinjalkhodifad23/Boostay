@@ -187,7 +187,7 @@ nav ul li:hover .dropdown{
 .banner-p1{
     font-family: var(--zcool);
     text-transform: uppercase;
-    color: #0E1730;
+    color: var(--secondary);
     margin-bottom:20px;
 }
 .banner-p2{
@@ -322,5 +322,105 @@ nav ul li:hover .dropdown{
 
  .counter {
     background-image: url(/img/counter-img.png);
+    position: relative;
+    z-index: 2;
  }
+.counter::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E1730cc;
+    top: 0%;
+    z-index: -1;
+}
+.fa-white{
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 66px;
+    background-color: var(--primary);
+    padding-top: 20px;
+    position: absolute;
+    top: -25%;
+    left: 32%;
+}
+.icon{
+    text-align: center;
+    height: 230px;
+    color: white;
+    border: 2px solid white;
+    position: relative;
+    padding: 85px 66px 48px 66px;
+}
+.icon h1 ,p {
+    font-family: var(--zcool);
+}
+.icon h1{
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.icon p{
+    font-size: 20px;
+}
 
+
+/* The Accomodation */
+.accomodation h1{
+    font-size: 48px;
+    font-weight: 200;
+    color: #212121;
+}
+
+
+/* co founder */
+
+.cofounder{
+    background-image: url(/img/testi-bg.png);
+    position: relative;
+    z-index: 2;
+  
+ }
+.cofounder::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0E173099;
+    top: 0%;
+    z-index: -1;
+}
+.founder{
+    width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.fa{
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-size: 60px;
+    background-color: var(--primary);
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+.cofounder p{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+    color: white;
+}
+.cofounder h4{
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 2px;
+}
+.founder h6{
+    color: white;
+    font-size: 16px;
+    font-family: var(--opensans);
+
+}
