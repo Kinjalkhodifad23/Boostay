@@ -96,6 +96,16 @@ img{
 .w-35{
     width: 35%;
 }
+.justifty-end{
+    justify-content: flex-end;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.align-start{
+    align-items: flex-start;
+}
+
 /* header-sec */
 header{
     position: fixed;
@@ -133,7 +143,7 @@ nav ul li a:hover .fa-angle-down{
     text-transform: capitalize;
 }
 .btn:hover{
-    background-color: var(--secondary);
+    background-color: black;
 }
 .fa-plus{
     margin-left: 5px;
@@ -260,7 +270,7 @@ nav ul li:hover .dropdown{
 /* our hotel */
 
 .border{
-    border-bottom: 1px solid #E7E7EB;
+    border-bottom: 1px solid #e6e6e7;
     padding-bottom: 30px;
 }
 .ourhotel .w-30 h1{
@@ -421,7 +431,7 @@ nav ul li:hover .dropdown{
     line-height: 24px;
     font-weight: 400;
 }
-.product-content .btn-card{
+ .btn-card{
     margin: 0%;
     margin-top: 20px;
     padding: 15px 34px;
@@ -429,7 +439,7 @@ nav ul li:hover .dropdown{
     border: 1px solid #E7E7EB;
     color: var(--secondary);
 }
-.product-content .btn-card:hover {
+ .btn-card:hover {
     background-color: var(--primary);
     color: var(--white);
 }
@@ -565,4 +575,83 @@ nav ul li:hover .dropdown{
     font-size: 16px;
     font-family: var(--opensans);
 
+}
+
+/* ourservices */
+
+.oureserviceshotel
+{
+    gap:16px;
+    border-bottom: 1px solid #E7E7EB;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+
+}
+ .oureserviceshotel h2 i {
+    margin-right:25px ;
+ }
+.oureserviceshotel .fa-arrow-right{
+    border:  1px solid #E7E7EB;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+.oureserviceshotel h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #00061d;
+}
+
+/* footer */
+
+footer{
+        background-color: var(--secondary);
+        color: var(--white);
+}
+footer .border1{
+    border-bottom:1px solid #bbbcbc80;
+}
+footer .boostay .fa-brands{
+    color: var(--primary);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+    transition: 0.5s all;
+}
+footer .boostay .fa-brands:hover{
+    background-color: var(--primary);
+    color: var(--white);
+}
+footer input{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255);
+    padding: 20px;
+    width: 240px;
+    margin-top: 20px;
+
+}
+.boostay p{
+    font-size: 20px;
+    font-weight:400;
+    line-height: 24px;
+    width: 450px;
+}
+.boostay .quick h4, .contact h4,.services h4{
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+.boostay ul li{
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.boostay .contact h5{
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.contact ul li{
+    color:#b2aeae;
 }
