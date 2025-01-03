@@ -71,6 +71,7 @@ img{
 }
 .w-60{
     width: 60%;
+    padding: 10px;
 }
 .w-25{
     width: 25%;
@@ -78,6 +79,9 @@ img{
 }
 .padding-zero{
     padding-bottom: 0%;
+}
+.padding-0{
+    padding: 0%;
 }
 .margin-b-60{
     margin-bottom: 60px;
@@ -915,3 +919,253 @@ footer input{
     border-radius: 100%;
     color: #595959;
  }
+
+
+/* room card */
+
+
+.room1{
+    border: 1px solid #E7E7EB;
+}
+.roomimg{
+    overflow: hidden;
+}
+.roomimg img{
+    transition: all 0.5s;
+}
+.roomimg img:hover{
+    transform: scale(1.2);
+}
+ .roomcontent{
+    padding: 30px 40px 40px 30px;
+ }
+ .roomhead {
+    margin-bottom: 20px;
+ }
+ .roomhead h1{
+    font-weight: 400;
+    color: var(--secondary);
+    font-size: 36px;
+ }
+ .roomhead i ,.roommoney span{
+    color: var(--primary);
+    font-size: 16px;
+ }
+ .roommoney h3{
+    color: var(--secondary);
+    font-size: 36px;
+    font-weight: 36px;
+    font-weight: 400;
+ }
+ .roommoney span{
+    color: #595959;
+ }
+ .roombed p{
+    color: #595959;
+    font-size: 16px;
+    font-family: var(--opensans);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    margin-top: 30px;
+ }
+ .roombed i{
+    color: var(--secondary);
+    margin-right: 10px;
+ }
+ .roomcontent .btn-fa{
+    margin-left:10px;
+    color: var(--primary);
+ }
+ .btn-room {
+    margin-left:0px;
+    border: 1px solid var(--primary);
+    background-color: transparent;
+    color: var(--secondary);
+ }
+ .btn-room:hover{
+    color: var(--white);
+ }
+
+ /* pages.html */
+
+ .familybg{
+    background-color: #5959590b;
+    padding: 0%;
+ }
+ 
+ .familycontent{
+    padding: 25px;
+ }
+.familycontent .fa-utensils{
+    padding: 20px;
+    background-color: var(--primary);
+    border-radius: 100%;
+    color: var(--white);
+    font-size: 30px;
+}
+.familycontent h3{
+    margin-left: 30px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.break{
+    margin-bottom: 30px;
+}
+.familycontent .lorem{
+    font-weight: 400;
+    color: #595959;
+    line-height: 27px;
+    font-size: 16.54px;
+    margin-bottom: 20px;
+}
+.email{
+    margin-bottom: 20px;
+}
+.email i{
+    padding: 10px;
+    background-color: white;
+    color: var(--primary);
+    border: 1px solid #E7E7EB;
+    border-radius: 100%;
+}
+.email p:nth-child(2){
+    margin-left: 20px;
+    color: #595959;
+}
+.us{
+   width:30%;
+}
+.us li i
+{
+    color: #595959;
+    margin-left: 0%;
+    transition: all 0.5s;
+}
+.us li i:hover{
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+
+/* Best Selling Dishes */
+
+.dishes .fish p{
+    color: #595959;
+    font-size: 17px;
+    width: 500px;
+}
+.chicken {
+    position: relative;
+    border: 1px solid #E7E7EB;
+    padding: 30px;
+    font-family: var(--zcool);
+}
+.chickenimg{
+    overflow: hidden;
+}
+.chickenimg img{
+    transition: all 0.5s;
+}
+.chickenimg img:hover{
+    transform: scale(1.2);
+}
+.chickenhead {
+    margin: 20px 0 10px;
+}
+.chickenhead h1{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--secondary);
+}
+.chickenhead i {
+    color: white;
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 100%;
+    font-size: 20px;
+}
+.chicken .shakky{
+    position: absolute;
+    left: 83%;
+    opacity: 0;
+}
+.chicken:hover .chickenhead .shake{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.chicken:hover .chickenhead .shakky{
+    opacity: 1;
+}
+.chickencontent p{
+    color: #595959;
+    line-height: 27px;
+}
+.chickenpr {
+    margin-top: 20px;
+}
+.chickenpr h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--secondary);
+}
+.chickenpr span {
+    color: var(--primary);
+}
+.chickenrate {
+    margin-top: 20px;
+    width: 35%;
+}
+.chickenrate i{
+    color: var(--primary);
+}
+.chickenpr i{
+    transition: all 0.5s ;
+}
+.chickbtn{
+    background-color: transparent;
+    color: var(--secondary);
+    margin: 0%;
+    margin-top: 30px;
+   padding: 0;
+}
+.chickbtn:hover{
+    background-color: transparent;
+    color: var(--primary);
+}
+.chicken:hover .chickenpr i{
+    color: var(--primary);
+}
+
+
+
+
+
+/* contact.html */
+.con23{
+    border: 1px solid #E7E7EB ;
+}
+.loca{
+    padding: 30px;
+    border-right: 1px solid #E7E7EB ;
+    text-align: center;
+}
+.loca  i{
+    font-size: 30px;
+    color: var(--primary);
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #f7f7f7;
+}
+.con23:last-child{
+    border: none;
+}
+.loca h1{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.loca p{
+    margin: 10px 0 10px 0;
+    color: #595959;
+}
